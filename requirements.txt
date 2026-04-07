@@ -3,4 +3,5 @@ numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.1
 reportlab
-matplotlib
+matplotlib==3.8.4
+pillow>10.0.0
