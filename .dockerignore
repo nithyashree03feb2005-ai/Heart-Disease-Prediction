@@ -1,0 +1,49 @@
+# Docker specific
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Git
+.git/
+.gitignore
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database (mounted as volume)
+database/*.db
+
+# Reports and temporary files
+*.pdf
+temp_*.png
+report.pdf
+heart_disease_report.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation (not needed in container)
+*.md
+!README.md
+
+# Deployment scripts
+deploy.ps1
+Procfile
+setup.sh
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
